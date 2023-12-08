@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: "https://www.vegainrecipes.com/",
+  origin: "https://www.vegainrecipes.com",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   optionsSuccessStatus: 200,
 };
